@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dictionary</h1>
+    <label for="text">Insert your word.</label> <br>
+    <input type="text" id="addWord">
+    <input type="button" value="Submit" onclick="addWord()">
+    <br><br><br>
+    <label for="text">Check if your word is present in the Dictionary.</label> <br>
+    <input type="text" id="searchWord">
+    <input type="button" value="Check" onclick="checkPresence()">
+    <p id = "findWord" ></p>
+    <script src="main.js"></script>
+</body>
+</html>
